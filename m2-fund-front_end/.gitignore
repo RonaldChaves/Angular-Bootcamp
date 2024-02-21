@@ -1,1 +1,8 @@
-m2-fund-front_end.code-workspace
+#.gitignore to:
+
+--workspace--
+
+*.code-workspace
+
+
+end
