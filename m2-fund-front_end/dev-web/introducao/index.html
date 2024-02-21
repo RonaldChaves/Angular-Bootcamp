@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro HTML</title>
+
+    <style>
+        p {
+            color: blue;
+            text-align: center;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div>Hello World</div>
+    <p>Primeiro paragrafo</p>
+    <button type="button" id="btn-click">
+        Aperte aqui!
+    </button>
+
+    <script>
+        document.getElementById("btn-click").addEventListener(
+            'click', function texto() {
+                console.log('Clicou');
+            }
+        )
+    </script>
+</body>
+</html>
