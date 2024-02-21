@@ -11,7 +11,7 @@
 [GitHub](https://github.com/RonaldChaves) -[LinkedIn](https://www.linkedin.com/in/ronald-chaves-oliveira/)
 [Email](https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtMfzmZVdzXvFpSZCpsQPtGSVsQSXLbtGwbLtPVjgBLgJrXlvCJPPBwBQMwGcGJlfHLQGHNb) -[Instagram](https://www.instagram.com/r.chvss/)
 
-## Para mais informações entre em contato nas redes acima!
+## For more information, contact the networks above!
 
 
 
