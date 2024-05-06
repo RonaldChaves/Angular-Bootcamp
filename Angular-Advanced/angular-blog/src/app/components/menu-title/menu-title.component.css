@@ -1,0 +1,12 @@
+.menu-title-container hr {
+    margin: 1rem 1.5rem 0.5rem;
+}
+
+.title {
+    color: white;
+    margin: 0.8rem 0 0.8rem;
+    font-size: 15rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}

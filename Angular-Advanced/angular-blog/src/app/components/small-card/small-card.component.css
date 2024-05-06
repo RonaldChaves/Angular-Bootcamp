@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+
+}
+
+.img-box {
+    max-width: 12.4rem;
+}
+
+.photo {
+    width: 100%;
+}
+
+.date {
+    padding: 0.6rem;
+    color: grey;
+}
+
+.title {
+    padding: 0.6rem;
+}
+
+hr {
+    margin-bottom: 1rem;
+}

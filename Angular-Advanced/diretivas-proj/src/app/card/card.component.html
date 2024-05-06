@@ -1,0 +1,38 @@
+<ul>
+    <li *ngFor="let i of products"> {{i}} </li>
+</ul>
+<button *ngIf="btnLive" (click)="getOut()"></button>
+<ul>
+    <li *ngFor="let a of outProducts">{{a}}</li>
+</ul>
+
+<button (click)="changeUserType('user')">user</button>
+<button (click)="changeUserType('admin')">admin</button>
+<button (click)="changeUserType('superUser')">superUser</button>
+
+<div [ngSwitch]="menuType">
+    <div *ngSwitchCase="'user'">
+        <ul>
+            <li>editar perfil</li>
+            <li>adicioanr cartao</li>
+        </ul>
+    </div>
+    <div *ngSwitchCase="'admin'">
+        <ul>
+            <li>editar perfil</li>
+            <li>adicioanr cartao</li>
+            <li>gerenciar users</li>
+        </ul>
+    </div>
+    <div *ngSwitchCase="'superUser'">
+        <ul>
+            <li>editar perfil</li>
+            <li>adicioanr cartao</li>
+            <li>gerenciar users</li>
+            <li>gerenciar admins</li>
+        </ul>
+    </div>
+</div>
+
+<button (click)="changeColor()" >Mude a cor</button>
+<h1 [ngClass]="colorType" > Oi eu sou o texto</h1>

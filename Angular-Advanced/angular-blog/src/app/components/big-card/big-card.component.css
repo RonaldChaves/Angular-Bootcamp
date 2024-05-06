@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 33rem;
+    margin-right: 1rem;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img-box {
+    max-width: 32rem;
+}
+
+.photo {
+    width: 100%;
+    min-width: 30rem;
+}
+
+.date {
+    padding: 0.2rem;
+    color: grey;
+}
+
+.title {
+    font-size: 2rem;
+    padding: 0.4rem;
+}
+
+.description {
+    padding: 0.4rem;
+    color: grey;
+    font-size: 1.2rem;
+}
