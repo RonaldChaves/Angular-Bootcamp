@@ -1,0 +1,25 @@
+<main class="container">
+
+    <div class="header">
+        <button [routerLink]="''" class="btn-return">Voltar</button>
+        <h1 class="title">{{ contentTitle }}</h1>
+        <h1></h1>
+    </div>
+
+
+    <figure class="img-box">
+        <span class="author">Publicado por {{ contentAuthor }}</span>
+        <span class="date">{{ contentDate }}</span>
+        <img class="photo" src="{{contentPhoto}}" alt="{{ contentAlt }}">
+
+    </figure>
+    <hr>
+    <div class="article">
+
+        <p class="description">
+            {{ contentDescription}}
+        </p>
+
+    </div>
+
+</main>

@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: #d2d1d1;
+    margin-bottom: 2rem;
+}
+
+.btn-return,
+.btn-return:not(:hover) {
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(64, 64, 64);
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    color: #828282;
+}
+
+
+.btn-return:hover {
+    transition: 0.5s;
+    background-color: #2c2c2c;
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    font-weight: 700;
+    color: #111111;
+    background-color: #d2d1d1;
+}
+
+.date {
+    color: grey;
+    padding-bottom: 0.6rem;
+}
+
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90%;
+}
+
+.photo {
+    min-width: 90%;
+    max-width: 38rem;
+    width: 100%;
+}
+
+hr {
+    margin: 1rem 0;
+    width: 46%;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 46%;
+}
+
+.description {
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .article {
+        width: 80%
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .article {
+        width: 80%
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .btn-return {
+        padding: 0.3rem 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .article {
+        width: 80%
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .btn-return {
+        padding: 0.1rem 0.3rem;
+    }
+}

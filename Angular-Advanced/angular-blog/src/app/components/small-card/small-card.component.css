@@ -8,7 +8,6 @@ a {
     align-items: flex-start;
     margin-bottom: 1rem;
     padding: 0.6rem;
-
 }
 
 .img-box {
@@ -30,4 +29,61 @@ a {
 
 hr {
     margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .title {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .img-box {
+        max-width: 11rem;
+    }
+
+    .photo {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .img-box {
+        max-width: 12rem;
+    }
+
+    .photo {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .title {
+        font-size: 1.4rem;
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .date {
+        font-size: 0.8rem;
+        padding: 0.35rem;
+    }
+
+    .title {
+        font-size: 0.8rem;
+        padding-bottom: 0;
+    }
+
+    .img-box {
+        max-width: 10rem;
+    }
+
+    .photo {
+        width: 100%;
+    }
 }

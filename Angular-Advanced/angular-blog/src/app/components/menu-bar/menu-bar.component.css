@@ -1,4 +1,3 @@
-
 .links-box {
     display: flex;
     flex-direction: row;
@@ -14,4 +13,10 @@ li {
 
 a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 375px) {
+    li {
+        font-size: 1.1rem;
+    }
 }
