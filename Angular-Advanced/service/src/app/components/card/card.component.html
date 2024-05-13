@@ -1,0 +1,26 @@
+<div class="search">
+
+    <input type="text" class="input" (keydown.enter)="getName()">
+    <button class="btn-search" (click)="getName()" (keydown.enter)="getName()">Search</button>
+
+</div>
+<main class="container">
+
+    <section class="title">
+
+        <h3>{{ pokemon.name.toUpperCase() }}</h3>
+        <span class="span-id">{{ pokemon.id }}</span>
+
+    </section>
+    <section class="body">
+
+        <img class="photo" src="{{ pokemon.sprites.front_default }}" alt="pokemon">
+
+    </section>
+    <section class="stats">
+
+        <span *ngFor="let t of pokemon.types" class="type">{{ t.type.name.toUpperCase() }}</span>
+
+    </section>
+
+</main>
