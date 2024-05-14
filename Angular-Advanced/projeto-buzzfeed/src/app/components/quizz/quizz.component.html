@@ -1,0 +1,27 @@
+<main class="container">
+
+    <figure class="logo">
+
+        <img src="/assets/imgs/logo.png" alt="BuzzFeed">
+        <h3 class="title">{{ title }}</h3>
+
+    </figure>
+    <section *ngIf="!finished" class="questions">
+
+        <h3>{{ questionsSelected.question }}</h3>
+
+    </section>
+    <section *ngIf="!finished" class="options">
+
+        <button *ngFor="let option of questionsSelected.options" (click)="playerChoice(option.alias)"
+            class="btn-option">{{ option.name }}</button>
+
+    </section>
+    <section *ngIf="finished" class="results">
+
+        <h1>O seu resultado é:</h1>
+        <p>{{ answersSelected }}</p>
+
+    </section>
+
+</main>
